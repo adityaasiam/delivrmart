@@ -88,9 +88,5 @@ This project is for educational/demo purposes.
 <img width="1080" height="2400" alt="Screenshot_20250926_192042" src="https://github.com/user-attachments/assets/20b441da-57a7-4301-bc74-b850334de970" />
 <img width="1080" height="2400" alt="Screenshot_20250926_192033" src="https://github.com/user-attachments/assets/7dcf1205-9abf-4377-8349-fbae08f51175" />
 <img width="1080" height="2400" alt="Screenshot_20250926_192018" src="https://github.com/user-attachments/assets/fd1b2c60-bf58-4e4b-9cc3-53b56fb296f9" />
-<img width="1080" height="2400" alt="Screenshot_20250926_192006" src="https://github.com/user-attachments/assets/ee6b9fe4-eed4-4665-a1d6-3191727b2d19" />
-<img width="1080" height="2400" alt="Screenshot_20250925_182738" src="https://github.com/user-attachments/assets/b5805ed4-e9ad-4639-999c-153ad9ec4a56" />
-<img width="1080" height="2400" alt="Screenshot_20250925_182723" src="https://github.com/user-attachments/assets/4e7b4def-b612-4c2c-8a65-7faf55861628" />
-<img width="1080" height="2400" alt="Screenshot_20250925_182706" src="https://github.com/user-attachments/assets/51cf4bbd-b2d4-404b-ba9c-2e5f8f7ea58d" />
 
 
