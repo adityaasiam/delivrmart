@@ -1,0 +1,31 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "delivrmart",
+          "appId": "1:934922815800:android:1385b4d8fecddeb551d9cd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "delivrmart",
+          "configurations": {
+            "android": "1:934922815800:android:1385b4d8fecddeb551d9cd",
+            "ios": "1:934922815800:ios:2a7c8636bac9c24d51d9cd",
+            "macos": "1:934922815800:ios:2a7c8636bac9c24d51d9cd",
+            "web": "1:934922815800:web:18a266a05494e55451d9cd",
+            "windows": "1:934922815800:web:10aca35bafc3aac151d9cd"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

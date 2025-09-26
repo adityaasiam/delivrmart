@@ -1,0 +1,47 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Basic order shape validation (no per-item iteration)
+    function orderShapeValid(d) {
+      return d.keys().hasOnly(['total','address','paymentMethod','createdAt','items']) &&
+             (d.total is number) &&
+             (d.address is string) &&
+             (d.paymentMethod is string) &&
+             (d.items is list);
+    }
+
+    function favoriteShapeValid(d) {
+      return d.keys().hasOnly(['menuItemId','name','price','createdAt']) &&
+             (d.menuItemId is string) &&
+             (d.name is string) &&
+             (d.price is number);
+    }
+
+    match /users/{userId} {
+      allow create: if isOwner(userId);
+      allow read, update, delete: if isOwner(userId);
+
+      match /orders/{orderId} {
+        allow read, write: if isOwner(userId) && orderShapeValid(request.resource.data);
+      }
+
+      match /favorites/{favId} {
+        allow read, write: if isOwner(userId) && favoriteShapeValid(request.resource.data);
+      }
+    }
+
+    match /public/{document=**} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

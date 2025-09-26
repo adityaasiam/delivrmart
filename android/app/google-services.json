@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "934922815800",
+    "project_id": "delivrmart",
+    "storage_bucket": "delivrmart.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934922815800:android:1385b4d8fecddeb551d9cd",
+        "android_client_info": {
+          "package_name": "com.example.delivr_mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934922815800-0kp8csvhfjqabf64tq9jb6a6hqf2vhm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delivr_mart",
+            "certificate_hash": "bf45ea3db0a3053a108253e60f5fabb424acd154"
+          }
+        },
+        {
+          "client_id": "934922815800-f1c1t2m0ffdk7q2es5e6mb7gfbvdcukp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delivr_mart",
+            "certificate_hash": "6bcb16735691016bd7027d45bf05ae73bc021034"
+          }
+        },
+        {
+          "client_id": "934922815800-uq5vupiqo52uilkn77v45cqkkrvmcr0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ikMN-zl9W24eeq9AGWRR3N_szTvM02w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934922815800-uq5vupiqo52uilkn77v45cqkkrvmcr0h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "934922815800-9m2hrf0k4qdii1pjb6kjne6bhtgtrv4n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.delivrMart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
