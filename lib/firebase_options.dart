@@ -41,7 +41,6 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAKt_nMHhVAJ5Un7NddnUirL7GvZb6XCTo',
     appId: '1:934922815800:web:18a266a05494e55451d9cd',
     messagingSenderId: '934922815800',
     projectId: 'delivrmart',
@@ -51,7 +50,6 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB2ikMN-zl9W24eeq9AGWRR3N_szTvM02w',
     appId: '1:934922815800:android:1385b4d8fecddeb551d9cd',
     messagingSenderId: '934922815800',
     projectId: 'delivrmart',
@@ -59,7 +57,6 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCoyiKvHNtVz7RUWCYsZN0Kh0JWb9MerzU',
     appId: '1:934922815800:ios:2a7c8636bac9c24d51d9cd',
     messagingSenderId: '934922815800',
     projectId: 'delivrmart',
@@ -68,7 +65,6 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCoyiKvHNtVz7RUWCYsZN0Kh0JWb9MerzU',
     appId: '1:934922815800:ios:2a7c8636bac9c24d51d9cd',
     messagingSenderId: '934922815800',
     projectId: 'delivrmart',
@@ -77,7 +73,6 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAKt_nMHhVAJ5Un7NddnUirL7GvZb6XCTo',
     appId: '1:934922815800:web:10aca35bafc3aac151d9cd',
     messagingSenderId: '934922815800',
     projectId: 'delivrmart',
